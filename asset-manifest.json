@@ -1,7 +1,7 @@
 {
-  "main.css": "/portfolio/static/css/main.460cf5a3.chunk.css",
-  "main.js": "/portfolio/static/js/main.27a63ebf.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.27a63ebf.chunk.js.map",
+  "main.css": "/portfolio/static/css/main.a2286edd.chunk.css",
+  "main.js": "/portfolio/static/js/main.cab2ef49.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.cab2ef49.chunk.js.map",
   "static/css/1.6d14a38e.chunk.css": "/portfolio/static/css/1.6d14a38e.chunk.css",
   "static/js/1.bbc05a2e.chunk.js": "/portfolio/static/js/1.bbc05a2e.chunk.js",
   "static/js/1.bbc05a2e.chunk.js.map": "/portfolio/static/js/1.bbc05a2e.chunk.js.map",
@@ -17,9 +17,9 @@
   "static/media/App.css": "/portfolio/static/media/EPL-Logo.76d8fbe1.png",
   "static/media/semantic.less": "/portfolio/static/media/brand-icons.a1a749e8.svg",
   "static/media/NodeJSLogo.png": "/portfolio/static/media/NodeJSLogo.9100f2eb.png",
-  "static/css/main.460cf5a3.chunk.css.map": "/portfolio/static/css/main.460cf5a3.chunk.css.map",
   "static/css/1.6d14a38e.chunk.css.map": "/portfolio/static/css/1.6d14a38e.chunk.css.map",
+  "static/css/main.a2286edd.chunk.css.map": "/portfolio/static/css/main.a2286edd.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.9a0d691216759d1a5ddbab0c5ac84beb.js": "/portfolio/precache-manifest.9a0d691216759d1a5ddbab0c5ac84beb.js",
+  "precache-manifest.09f4d9c1633c71cb97a7f9073483f0c8.js": "/portfolio/precache-manifest.09f4d9c1633c71cb97a7f9073483f0c8.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
