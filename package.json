@@ -4,17 +4,20 @@
   "private": true,
   "homepage": "https://ebruchet.github.io/portfolio/",
   "dependencies": {
+    "classnames": "^2.2.6",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-scripts": "2.0.5"
+    "react-scripts": "2.0.5",
+    "semantic-ui-react": "^0.87.2",
+    "typeface-montserrat": "0.0.54"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "eject": "react-scripts eject"
+    "eject": "craco eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -24,5 +27,10 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@craco/craco": "^5.2.3",
+    "craco-less": "^1.9.0",
+    "semantic-ui-less": "^2.4.1"
+  }
 }

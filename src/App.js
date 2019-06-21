@@ -1,28 +1,56 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React, {Component} from 'react';
 import './App.css';
-
+import 'semantic-ui-less/semantic.less'
+import {Header, Icon, Menu, Sticky} from "semantic-ui-react";
+import 'typeface-montserrat';
+import Landing from "./components/Landing";
+import AboutMe from "./components/AboutMe";
+import PersonalProjects from "./components/PersonalProjects";
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+
+    state = {
+        context: null,
+    };
+
+    handleContextRef = ref => {
+        this.setState({context: ref});
+    };
+
+    render() {
+        return (
+            <div className="App" ref={this.handleContextRef}>
+                <Sticky context={this.state.context}>
+                    <Menu
+                        id={'navbar-menu'}
+                        size={'huge'}
+                        borderless={true}
+                        style={{margin: 0, borderRadius: '0'}}>
+                        <Menu.Menu position={'left'}>
+                            <Menu.Item>
+                                <Header as='h2'>
+                                    <Icon name='terminal' />
+                                    <Header.Content>EB</Header.Content>
+                                </Header>
+                            </Menu.Item>
+                        </Menu.Menu>
+                        <Menu.Menu position={'right'}>
+                            <Menu.Item position="right">
+                                <Header size={'tiny'} className={'navbar-menu-header'}>
+                                    <a href="mailto: evan.bruchet@outlook.com">
+                                        <Icon color={'black'} name={'mail'}/>
+                                    </a>
+                                    {/*Contact Me*/}
+                                </Header>
+                            </Menu.Item>
+                        </Menu.Menu>
+                    </Menu>
+                </Sticky>
+                <Landing />
+                <AboutMe />
+                <PersonalProjects />
+            </div>
+        );
+    }
 }
 
 export default App;
