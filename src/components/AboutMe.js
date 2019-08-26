@@ -9,6 +9,8 @@ import NodeJSLogo from '../img/NodeJSLogo.png';
 import NPMLogo from '../img/NPMLogo.png';
 import ReactLogo from '../img/ReactLogo.png';
 import SpringBootLogo from '../img/SpringBootLogo.png';
+import CV from '../files/EN_Evan_Bruchet_CV.pdf';
+
 import classNames from 'classnames';
 
 class AboutMe extends React.Component {
@@ -41,7 +43,7 @@ class AboutMe extends React.Component {
                     </p>
                     <p>
                         <strong>
-                            <a href="../files/Evan_Bruchet_Resume.docx" download>
+                            <a href={CV} download>
                                 Download My Resume
                                 <Icon name={'download'}/>
                             </a>

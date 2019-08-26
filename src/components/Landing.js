@@ -22,9 +22,6 @@ class Landing extends React.Component {
                     <a href={'https://github.com/EBruchet'}>
                         <Icon size={'large'} color={'black'} name={'github'}/>
                     </a>
-                    <a href={'https://linkedin.com'}>
-                        <Icon size={'large'} color={'blue'} name={'linkedin'}/>
-                    </a>
                     <a href={'mailto:evanbruchet@outlook.com'}>
                         <Icon size={'large'} color={'black'} name={'mail'}/>
 

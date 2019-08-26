@@ -31,6 +31,8 @@ class PersonalProjects extends React.Component {
                                     <p>Personal passion project based on the English Premier League.</p>
                                     <p>Users can earn points from predictions, challenge other users to <strong>prediction
                                         challenges.</strong></p>
+                                    <p>To test, use the following information:</p>
+                                    <p><b>Email: plpredictionsinfo@gmail.com</b> w/ <b>Password:</b>SampleUser1!</p>
                                 </Header.Subheader>
                             </Header>
                             <div>
